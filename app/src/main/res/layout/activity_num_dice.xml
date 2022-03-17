@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".num_dice"
+    android:background="#F37C78">
+
+    <Button
+        android:id="@+id/btn_back_lunche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_baseline_arrow_circle_left_24"
+        app:backgroundTint="@null"
+        />
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_decrease_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/number"
+            android:background="@drawable/ic_baseline_remove_circle_outline_24"
+            app:backgroundTint="@null" />
+
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/arizonia"
+            android:gravity="center"
+            android:src="@drawable/dice_1"
+            android:text="@string/number"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn_increase_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/number"
+            android:background="@drawable/ic_baseline_add_circle_outline_24"
+            app:backgroundTint="@null"
+
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/dice_image_logo_num"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dice_image_logo_num"
+
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_decrease_num_dice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/num_dice"
+            android:background="@drawable/ic_baseline_remove_circle_outline_24"
+            app:backgroundTint="@null"
+            android:layout_centerVertical="true"/>
+
+
+        <TextView
+            android:id="@+id/num_dice"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/arizonia"
+            android:gravity="center"
+            android:src="@drawable/dice_1"
+            android:text="@string/num"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn_increase_num_dice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/num_dice"
+            android:background="@drawable/ic_baseline_add_circle_outline_24"
+            app:backgroundTint="@null"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/arizonia"
+        android:text="@string/Next"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        />
+
+
+
+</RelativeLayout>

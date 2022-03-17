@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/button_shape.xml" value="0.22" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/dice_1.xml" value="0.25" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/dice_2.xml" value="0.2975" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/dice_3.xml" value="0.2975" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/dice_4.xml" value="0.2975" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/dice_5.xml" value="0.2975" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/dice_6.xml" value="0.2975" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/domino1.xml" value="0.2975" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/empty_dice.xml" value="0.2975" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.2735" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/ic_baseline_arrow_circle_left_24.xml" value="0.2065" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/ic_baseline_domain_24.xml" value="0.2975" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/ic_baseline_remove_circle_outline_24.xml" value="0.2065" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2065" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/drawable/shape_text.xml" value="0.2" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/font/arizona.xml" value="0.2989583333333333" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/font/arizonia.xml" value="0.2989583333333333" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/layout/activity_num_dice.xml" value="0.22" />
+        <entry key="..\:/Mohamed/Projests/diceRoll/app/src/main/res/layout/activity_start.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

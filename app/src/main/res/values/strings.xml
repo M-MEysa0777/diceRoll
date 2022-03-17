@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">diceRoll</string>
+    <string name="roll">roll dice</string>
+    <string name="Play">play</string>
+    <string name="lucky_roll">Lucky Roll</string>
+    <string name="Next">Next</string>
+    <string name="number">Number</string>
+    <string name="num">Num of dice</string>
+    <string name="sum">Sum</string>
+    <string name="coins">Coins</string>
+</resources>

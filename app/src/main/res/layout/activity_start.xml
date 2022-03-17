@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".start"
+    android:background="#F37C78">
+
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ic_baseline_settings_24"
+        app:backgroundTint="@null"
+
+        tools:ignore="RelativeOverlap" />
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        >
+
+        <ImageView
+            android:id="@+id/dice_image_logo"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/logo"
+            android:textSize="30sp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/name_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dice_image_logo"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/arizonia"
+            android:text="@string/lucky_roll"
+            android:textColor="@color/white"
+            android:textSize="70sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/arizonia"
+        android:text="@string/Play"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+
+
+</RelativeLayout>
